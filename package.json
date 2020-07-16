@@ -1,0 +1,13 @@
+{
+  "name": "twemoji-svg",
+  "version": "1.0.0",
+  "description": "SVG-only mirror of twemoji",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download": "rm -f svg/*; wget https://github.com/twitter/twemoji/archive/master.zip -O temp.zip && unzip -jo temp.zip \"twemoji-master/assets/svg/*\" -d svg && rm temp.zip"
+  },
+  "keywords": [],
+  "author": "Datawrapper GmbH",
+  "license": "ISC"
+}
