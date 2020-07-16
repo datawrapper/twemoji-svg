@@ -1,5 +1,5 @@
 {
-  "name": "twemoji-svg",
+  "name": "@datawrapper/twemoji-svg",
   "version": "1.0.0",
   "description": "SVG-only mirror of twemoji",
   "main": "index.js",
